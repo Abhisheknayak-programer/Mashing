@@ -306,6 +306,11 @@
   font-size: 2rem;
 }
 
+.checkout__section a {
+  text-decoration: none;
+  color: #000000;
+}
+
 /*******************/
 /* MEDIA QUERIES */
 /*******************/
@@ -374,5 +379,8 @@
   .checkout__section__col__1 .checkout__firstbox {
     font-size: 1rem;
     font-weight: 600;
+  }
+  .second__checkout__col_1 {
+    margin-bottom: 1rem;
   }
 }
