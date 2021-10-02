@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mashing Checkout</title>
+    <!-- Linking the css -->
+    <link rel="stylesheet" href="./style.css">
+    <!-- Bootstrap css link -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
+    <!-- Bootstrap js link -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-/bQdsTh/da6pkI1MST/rWKFNjaCP5gBSY4sEBT38Q/9RBh9AH40zEOg7Hlq2THRZ"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+
+    <!-- Checkout Page -->
+    <section class="checkout__section">
+        <div class="container">
+            <div class="gobackDiv">
+                <h1>X</h1>
+            </div>
+
+            <div class="row">
+                <div class="col-10 col-sm-8 col-md-6 col-lg-4 col-xl-3 mx-auto checkout__section__col__1">
+                    <div class="checkout__firstbox">
+                        <ion-icon name="chevron-down-circle-outline" class="nextIcon"></ion-icon>
+                        1
+                    </div>
+                    <h1>X</h1>
+                    <img src="./Img/whiskey.jpg" class="checkoutImg img-fluid" alt="bottle">
+                </div>
+            </div>
+
+            <div class="row second__checkout__row">
+                <div class="col-8 col-sm-4 col-md-3 col-lg-3 col-xl-2 mx-auto second__checkout__col_1">
+                    <p>עבור לתשלום מאובטח</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- ION ICON SCRIPTS -->
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <script>
+        const gobackDiv = document.querySelector(".gobackDiv");
+        gobackDiv.addEventListener("click", () => {
+            window.history.back();
+        });
+
+    </script>
+</body>
+
+</html>
