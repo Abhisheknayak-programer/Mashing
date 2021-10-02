@@ -158,11 +158,29 @@
   gap: 25rem;
   align-items: center;
   justify-content: flex-start;
-  padding: 0rem 5rem 0 5rem;
+  margin-top: 2rem;
 }
 
-.social__media__images .nextIcon {
-  font-size: 70px;
+.social__media__images a {
+  text-decoration: none;
+  color: #000000;
+}
+
+.social__media__images a:hover {
+  color: #000000;
+}
+
+.social__media__images .iconsRedirectionDivs {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-left: 10rem;
+  gap: 0.5rem;
+}
+
+.social__media__images .nextIcon,
+.social__media__images .socialIcons {
+  font-size: 50px;
 }
 
 /***********************************/
