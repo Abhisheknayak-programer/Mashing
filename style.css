@@ -311,6 +311,15 @@
   color: #000000;
 }
 
+.checkoutForm {
+  font-size: 1rem;
+}
+
+.checkoutForm select {
+  border: none;
+  outline: none;
+}
+
 /*******************/
 /* MEDIA QUERIES */
 /*******************/
